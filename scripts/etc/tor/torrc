@@ -1,0 +1,3 @@
+
+HiddenServiceDir /var/lib/tor/colossus_ssh/
+HiddenServicePort 1022 127.0.0.1:22
