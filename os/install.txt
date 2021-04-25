@@ -1,0 +1,6 @@
+==== os install ====
+- use arch linux as base
+- follow instractions from archlinuxarm
+- for rpi3
+	- https://archlinuxarm.org/platforms/armv8/broadcom/raspberry-pi-3
+- 
