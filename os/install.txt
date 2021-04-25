@@ -1,0 +1,21 @@
+==== os install ====
+- use arch linux as base
+- follow instractions from archlinuxarm
+- for rpi3
+	- https://archlinuxarm.org/platforms/armv8/broadcom/raspberry-pi-3
+- add user autostart, schluesselmeister
+- add user backup
+- systemctl enable cron, sshd, 
+- add scripts, cron, ssh-keys
+
+==== add hdd ====
+- if you need to generate new key for hdd
+	- dd if=/dev/random of=/tmp/crypt/key bs=1M count=4
+- new hdd device device name for example will be $device
+- blkid will give you the uuid for the autostart script
+	- cryptsetup luksFormat /dev/$device1 /tmp/crypt/key
+	- cryptsetup luksOpen /dev/$device $device --key-file /tmp/crypt/key
+	- mkfs.ext4 /dev/mapper/$device
+	- blkid | grep $device1
+- if you need to add a new key to a device
+	- cryptsetup luksAddKey /dev/$device1 /tmp/crypt/key

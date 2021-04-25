@@ -1,0 +1,13 @@
+#root cron
+#
+
+mailto=""
+
+#m h D M DoW
+############
+
+0 6 * * 1 	/bin/bash /root/scripts/update-arch.sh
+0 4 15 * *	/bin/bash /root/scripts/delayed-reboot.sh
+
+@reboot	/bin/bash /root/scripts/crypt-tmp.sh
+

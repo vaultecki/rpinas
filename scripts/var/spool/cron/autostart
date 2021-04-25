@@ -1,0 +1,7 @@
+#autostart cron
+#
+
+mailto=""
+
+@reboot /bin/bash /home/autostart/scripts/automount.sh
+

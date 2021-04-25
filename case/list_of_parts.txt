@@ -1,0 +1,33 @@
+==== 3d prints ====
+- 4x foot
+- 1x c1_h1.stl
+- 1x c1_h2.stl
+- 2x c1_h3.stl
+- 1x c2_h1.stl
+- 1x c2_h2.stl
+- 2x c1_h3.stl
+- 1x c3_h1.stl
+- 1x c3_h2.stl
+- 2x c3_h3.stl
+- 1x c4_h1.stl
+- 1x c4_h2.stl
+- 1x c4_h3.stl
+- 2x cable_clip_1.stl
+- 1x cable_clip_2.stl
+- 1x cable_clip_3.stl
+- 8x spacer_1.stl
+
+==== puchased parts ====
+- 1x rpi3
+- 1x 4tb USB hard drive (Toshiba Canvio)
+- 1x UNITEK USB Hub 4 Port 3.0 + 1 Microusb/SuperSpeed Datenhub
+- 1x Neutrik NAUSB-W
+- 1x Neutrik NE8FDP-B RJ45
+- 1x flat short ethernetcable
+- 2x 30cm Micro USB Cable 
+- 2x 30cm 90 Degree Micro USB Cable
+- 1x USB 2.0 A-Male to B-Male Cable
+- 1x USB 5V 2A Charger
+- 1x MakerHawk ESP32 LoRa Modul SX1276
+- 2x cable strap
+- 24x M4x25 ISO 7380/2 - A2
