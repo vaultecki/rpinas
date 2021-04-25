@@ -3,4 +3,5 @@
 - follow instractions from archlinuxarm
 - for rpi3
 	- https://archlinuxarm.org/platforms/armv8/broadcom/raspberry-pi-3
-- 
+- add user autostart, schluesselmeister
+- add user backup
